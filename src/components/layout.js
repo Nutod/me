@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 import { ThemeProvider } from "styled-components";
 import theme from "../lib/colors";
-
 import Header from "./header";
 import "./layout.css";
 
