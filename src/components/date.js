@@ -16,5 +16,10 @@ const months = [
 ];
 
 export default function Date() {
-	return <div />;
+	return (
+		<>
+			{months[new Date().getMonth()]}, {new Date().getFullYear()}
+			<p>Oladotun Aluko</p>
+		</>
+	);
 }
