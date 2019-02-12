@@ -20,7 +20,9 @@ const Header = ({ siteTitle }) => (
 					textDecoration: `none`
 				}}
 			>
-				<Logo />
+				<div style={{ width: "3.5rem" }}>
+					<Logo />
+				</div>
 			</Link>
 		</div>
 	</HeaderWrapper>
