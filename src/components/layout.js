@@ -22,7 +22,7 @@ const Layout = ({ children }) => (
 			<ThemeProvider theme={theme}>
 				<>
 					<Header siteTitle={data.site.siteMetadata.title} />
-					<div
+					{/* <div
 						style={{
 							margin: `0 auto`,
 							maxWidth: 960,
@@ -30,13 +30,12 @@ const Layout = ({ children }) => (
 							paddingTop: 0,
 							color: `${theme.black}`
 						}}
-					>
-						<main>{children}</main>
-						<footer>
+					> */}
+					<main>{children}</main>
+					{/* <footer>
 							{months[new Date().getMonth()]}, {new Date().getFullYear()}
 							<p>Oladotun Aluko</p>
-						</footer>
-					</div>
+						</footer> */}
 				</>
 			</ThemeProvider>
 		)}

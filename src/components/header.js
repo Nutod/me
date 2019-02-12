@@ -6,7 +6,7 @@ import Logo from "./logo";
 
 const Header = ({ siteTitle }) => (
 	<HeaderWrapper>
-		<div />
+		{/* <div />
 		<LogoWrapper>
 			<Link to="/">
 				<div style={{ width: "3.5rem" }}>
@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
 				</div>
 			</Link>
 		</LogoWrapper>
-		<div />
+		<div /> */}
 	</HeaderWrapper>
 );
 
