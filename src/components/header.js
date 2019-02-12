@@ -9,7 +9,8 @@ const Header = ({ siteTitle }) => (
 			style={{
 				margin: `0 auto`,
 				maxWidth: 960,
-				padding: `1.45rem 1.0875rem`
+				padding: `1.45rem 1.0875rem`,
+				color: "crimson"
 			}}
 		>
 			<Link
@@ -19,6 +20,7 @@ const Header = ({ siteTitle }) => (
 					textDecoration: `none`
 				}}
 			/>
+			{siteTitle}
 		</div>
 	</HeaderWrapper>
 );
