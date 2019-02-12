@@ -6,25 +6,11 @@ import Logo from "./logo";
 
 const Header = ({ siteTitle }) => (
 	<HeaderWrapper>
-		<div
-			style={{
-				margin: `0 auto`,
-				maxWidth: 960,
-				padding: `1.45rem 1.0875rem`
-			}}
-		>
-			<Link
-				to="/"
-				style={{
-					color: `white`,
-					textDecoration: `none`
-				}}
-			>
-				<div style={{ width: "3.5rem" }}>
-					<Logo />
-				</div>
-			</Link>
-		</div>
+		<Link to="/">
+			<div style={{ width: "3.5rem" }}>
+				<Logo />
+			</div>
+		</Link>
 	</HeaderWrapper>
 );
 
