@@ -19,7 +19,6 @@ export default function Date() {
 	return (
 		<>
 			{months[new Date().getMonth()]}, {new Date().getFullYear()}
-			<p>Oladotun Aluko</p>
 		</>
 	);
 }

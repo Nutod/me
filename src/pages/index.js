@@ -20,7 +20,7 @@ const IndexPage = () => (
 		<h1>Hi people</h1>
 		<p>This site is under construction</p>
 		<p>We're launching soon</p>
-		<div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+		<div style={{ maxWidth: `300px`, marginBottom: `1.45rem`, textAlign: 'center' }}>
 			<Image />
 		</div>
 	</Layout>
