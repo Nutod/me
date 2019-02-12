@@ -5,6 +5,7 @@ import { ThemeProvider } from "styled-components";
 import theme from "../lib/colors";
 import Header from "./header";
 import "./layout.css";
+import { months } from "../lib/months";
 
 const Layout = ({ children }) => (
 	<StaticQuery
@@ -32,6 +33,7 @@ const Layout = ({ children }) => (
 					>
 						<main>{children}</main>
 						<footer>
+							{months[new Date().getMonth()]}, {new Date().getFullYear()}
 							<p>Oladotun Aluko</p>
 						</footer>
 					</div>
