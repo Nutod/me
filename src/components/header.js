@@ -2,6 +2,7 @@ import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
 import { HeaderWrapper } from "./styles/Header";
+import Logo from "./logo";
 
 const Header = ({ siteTitle }) => (
 	<HeaderWrapper>
@@ -18,8 +19,9 @@ const Header = ({ siteTitle }) => (
 					color: `white`,
 					textDecoration: `none`
 				}}
-			/>
-			{siteTitle}
+			>
+				<Logo />
+			</Link>
 		</div>
 	</HeaderWrapper>
 );
