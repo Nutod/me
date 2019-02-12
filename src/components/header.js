@@ -1,15 +1,10 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
-import theme from "../lib/colors";
+import { HeaderWrapper } from "./styles/Header";
 
 const Header = ({ siteTitle }) => (
-	<header
-		style={{
-			background: `${theme.blue}`,
-			marginBottom: `1.45rem`
-		}}
-	>
+	<HeaderWrapper>
 		<div
 			style={{
 				margin: `0 auto`,
@@ -29,7 +24,7 @@ const Header = ({ siteTitle }) => (
 				</Link>
 			</h1>
 		</div>
-	</header>
+	</HeaderWrapper>
 );
 
 Header.propTypes = {
