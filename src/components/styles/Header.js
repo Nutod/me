@@ -6,4 +6,8 @@ export const HeaderWrapper = styled.header`
 	margin: 0 auto;
 `;
 
-export const LogoWrapper = styled.div``;
+export const LogoWrapper = styled.div`
+	width: 100vw;
+	margin: 0 auto;
+	padding: 1rem;
+`;
