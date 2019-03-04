@@ -8,25 +8,21 @@ import SideProjects from "../components/tmp/SideProjects/SideProjects";
 import Footer from "../components/tmp/Footer/Footer";
 
 // TODO: Complete the SEO Component prop fllling
-
 const IndexPage = () => (
-	<Layout>
-		<SEO
-			title="Home"
-			keywords={[
-				`react`,
-				`product design`,
-				`development`,
-				`javascript`,
-				`es6`,
-				`esnext`
-			]}
-		/>
-		<Hero />
-		<Experience />
-		<SideProjects />
-		<Footer />
-	</Layout>
+  <Layout>
+    <SEO
+      title="Home"
+      keywords={[
+        `react`,
+        `product design`,
+        `development`,
+        `javascript`,
+        `es6`,
+        `esnext`
+      ]}
+    />
+    <Hero />
+  </Layout>
 );
 
 export default IndexPage;
