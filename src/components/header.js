@@ -2,14 +2,14 @@ import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
 
-const Header = ({ siteTitle }) => <HeaderWrapper />;
+// const Header = ({ siteTitle }) => <HeaderWrapper />;
 
 Header.propTypes = {
-  siteTitle: PropTypes.string
+ siteTitle: PropTypes.string
 };
 
 Header.defaultProps = {
-  siteTitle: ``
+ siteTitle: ``
 };
 
 export default Header;
